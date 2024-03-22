@@ -1,0 +1,108 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.container3{
+    /* display:flex;
+    flex-direction: column;
+    margin: auto;
+    background: #fff;
+    width: 100%;
+    background-image: linear-gradient(79deg, #7439db, #C66FBC 48%, #F7944D);
+    background-color: yellowgreen;
+    height: 100vh; */
+
+
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: yellowgreen;
+    box-shadow: 0px, 0px, 10px, rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: row;
+    margin: 100px;
+    width: auto;
+}
+
+.todo-td{
+    margin-left: 10px;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 20%;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* .todo-td {
+    cursor: pointer;
+    display: flex;
+    margin: 60px auto;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    /* border: none;
+    font-size: 1rem;
+    transition: 0.3s ease-in-out;
+    background: blanchedalmond;
+} */
+
+.list{
+    margin-top: 30px !important;
+}
+
+li{
+    margin-bottom: 15px;
+    margin-left: -40px;
+    background-color: black !important;
+    color: white;
+    border: none !important;
+    list-style: none;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+
+.list-item{
+    display: flex;
+}
+
+.list-items .list-item-list{
+    padding-left: 5px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#complete{
+    color: green ;
+}
+
+#edit{
+    color: blue;
+}
+
+#delete{
+    color: orange;
+}
+
+#list-item{
+    text-decoration: line-through;
+    opacity: 0.3;
+}
+
